@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat app</title> 
+    <link rel="stylesheet" href="../public/home.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="box">
+            LETS CHAT!!
+            <input type="text" name="username" id="username" placeholder="USERNAME" autocomplete="off">
+            <input type="text" name="room" id="room" placeholder="ROOM" autocomplete="off">
+            <button type="button" name="button" id="'button" onclick="setall()">Chat</button>
+            <div id="error"></div>
+        </div>
+    </div>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.1/socket.io.js"></script>
+    <script src="../public/home.js"></script>
+</body>
+</html>
